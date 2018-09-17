@@ -14,7 +14,7 @@ ext {
     room = '1.1.1'
     supportLibrary = '28.0.0-rc02'
     constraintLayout = '1.1.2'
-    dagger2 = '2.11'
+    dagger2 = '2.16'
     javaxAnnotation = '10.0-b28'
     lottie = '2.0.0'
     okHttp = '3.8.0'
