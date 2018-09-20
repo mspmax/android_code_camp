@@ -58,6 +58,7 @@ dependencies {
     // RxJava 2
     api commonDependencies.rxJava2
     api commonDependencies.rxAndroid
+    api commonDependencies.rxRelay
 
     // Glide
     api commonDependencies.glide
