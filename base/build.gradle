@@ -31,6 +31,7 @@ dependencies {
     def developmentDependencies = rootProject.ext.commonDevDependencies
     def commonTestDependencies = rootProject.ext.commonTestDependencies
 
+    api 'com.android.support:support-v4:28.0.0-rc02'
     application project(':app')
     feature project(':app')
 
@@ -57,6 +58,7 @@ dependencies {
     // RxJava 2
     api commonDependencies.rxJava2
     api commonDependencies.rxAndroid
+    api commonDependencies.rxRelay
 
     // Glide
     api commonDependencies.glide
